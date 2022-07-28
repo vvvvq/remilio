@@ -8,6 +8,22 @@
 }
 
 
+.scrollinglogobox {
+    border: 1px solid #2f4d0c;
+    margin: 1em;
+    overflow: hidden;
+}
+
+.scrolling {
+    height: 128px;
+    animation: moveSlideshow 100s linear infinite;
+}
+
+@keyframes moveSlideshow {
+    100% {
+        transform: translateX(-66.6666%);
+    }
+}
 
 
 .typewriter h1 {
@@ -76,15 +92,14 @@ blinking {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 10px;
 }
 
     .flex-container > div {
         overflow: hidden;
-        margin: auto;
-        padding-bottom: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
         font-size: 1em;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 
@@ -123,9 +138,9 @@ body {
 }
 
 img1 {
-  display: block;
-  margin: auto;
-  max-width: 20em;
+  //display: block;
+  //margin: auto;
+  //max-width: 20em;
   //border: 1px solid #777;
 }
 img:hover {
@@ -271,10 +286,7 @@ div.desc {
   max-height: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-  img {
-    width: 100%;
-  }
+
 
   body {
     width: 100%;
@@ -283,7 +295,6 @@ div.desc {
   div.desc {
     font-size: x-small;
   }
-
   ul {
     margin-right: 1em;
   }
