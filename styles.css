@@ -21,62 +21,48 @@
   }
 
 /* Scrolling Banner */
-.scrolling-centered{
-  width:100%;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  align-content: center;
-  min-width: 100%;
-}
+
 .scrollinglogobox {
-  width: 44em;
-  border: 1px solid #2f4d0c;
-  height: 128px;
+  max-width: 45.5em;
+  width: 100vw;
+  min-height: 128px;
+  max-height: 55vw;
   overflow: hidden;
   position: relative;
   align-self: center ;
 }
-.scrolling {
-  position: absolute;
-  height: 128px;
-  animation: moveSlideshow 10s linear infinite;
-}
+
+
 @keyframes moveSlideshow {
   100% {
       transform: translateX(-66.6666%);
   }
 }
-.scrollingslower {
+.scroll_01 {
+  height:128px;
   position: absolute;
-  height: 128px;
-  animation: moveSlideshow 90s linear infinite;
+  animation: moveSlideshow 40s linear infinite;
 }
+
 @keyframes moveSlideshow {
   100% {
       transform: translateX(-66.6666%);
   }
 }
-.scrolling-even-slower {
+.scroll_background {
+  height:128px;
   position: absolute;
-  height: 128px;
-  animation: moveSlideshow 10s linear infinite;
+  animation: moveSlideshow 100s linear infinite;
 }
-@keyframes moveSlideshow {
-  100% {
-      transform: translateX(-66.6666%);
-  }
-}
-.scrolling-even_slower {
-  position: absolute;
-  height: 128px;
-  animation: moveSlideshows 20s linear infinite;
-}
-@keyframes moveSlideshows {
-  100% {
-      transform: translateX(-66.6666%);
-  }
-}
+
+
+
+
+
+
+
+
+
 
 .typewriter h1 {
    
@@ -146,7 +132,7 @@ blinking {
   display: grid;
   grid-template-columns: auto 60%;
   gap: 10px;
-  padding: 15px;
+  padding: 0px 0px 15px 15px;
   flex-direction: row;
 }
 .flex-container-chan-item{
@@ -159,34 +145,22 @@ blinking {
   
 }
 
-.image-test{
-  display: block;
-  width: 500px;
-  height: auto;
-  align-self: center;
-}
 
 .flex-container-warning {
-  display: grid;
-  grid-template-columns: auto 300px;
-  gap: 10px;
-  background-color: black;
-  padding: 10px;
-  text-align: left;
-  //max-width: 400px;
+  display: flexbox;
+  flex-wrap: wrap;
   flex-direction: row;
-  //border-style: solid;
- // border-color: yellow;
-  //border-width: 10px;
-  //border-image-source: url("img/border-warning.png");
-  //border-image-width: 64px;
-  //border-image-slice: 64;
-  //border-image-repeat: repeat;
-  //-webkit-animation: glowing_yellow 1500ms infinite;
- // -moz-animation: glowing_yellow 1500ms infinite;
-  //-o-animation: glowing_yellow 1500ms infinite;
-  //animation: glowing_yellow 1500ms infinite;
+  gap: 20px;
+  padding: 20px;
+  background-color: black;
+  font-size: 1.0em;
+  text-align: left;
 }
+
+
+
+
+
 .flex-container-warning-item {
   overflow: hidden;
   font-size: 1em;
@@ -329,7 +303,7 @@ img:hover {
 }
 .m_box_bar_chan {
   text-align: left;
-  padding: 10px;
+  padding: 5px;
   background: #d6daee;
   color: white;
 }
