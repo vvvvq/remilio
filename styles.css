@@ -146,17 +146,25 @@ blinking {
   display: grid;
   grid-template-columns: auto 60%;
   gap: 10px;
-  //background-color: rgba(0, 0, 0, 0.111);
-  padding: 10px;
-  margin: 0em 0.5em 0em;
+  padding: 15px;
   flex-direction: row;
 }
 .flex-container-chan-item{
   overflow: hidden;
   font-size: 1em;
   text-align: left;
+  max-width:auto;
+  height:auto;
+  
+  
 }
 
+.image-test{
+  display: block;
+  width: 500px;
+  height: auto;
+  align-self: center;
+}
 
 .flex-container-warning {
   display: grid;
