@@ -44,7 +44,7 @@
 }
 @keyframes moveSlideshow {
   100% {
-      transform: translateX(66.6666%);
+      transform: translateX(-66.6666%);
   }
 }
 .scrollingslower {
@@ -64,7 +64,7 @@
 }
 @keyframes moveSlideshow {
   100% {
-      transform: translateX(66.6666%);
+      transform: translateX(-66.6666%);
   }
 }
 .scrolling-even_slower {
