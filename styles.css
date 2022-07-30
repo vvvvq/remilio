@@ -40,17 +40,17 @@
 .scrolling {
   position: absolute;
   height: 128px;
-  animation: moveSlideshow 10s linear infinite;
+  animation: moveSlideshow 20s linear infinite;
 }
 @keyframes moveSlideshow {
   100% {
-      transform: translateX(-66.6666%);
+      transform: translateX(66.6666%);
   }
 }
 .scrollingslower {
   position: absolute;
   height: 128px;
-  animation: moveSlideshow 90s linear infinite;
+  animation: moveSlideshow 50s linear infinite;
 }
 @keyframes moveSlideshow {
   100% {
@@ -60,11 +60,11 @@
 .scrolling-even-slower {
   position: absolute;
   height: 128px;
-  animation: moveSlideshow 10s linear infinite;
+  animation: moveSlideshow 20s linear infinite;
 }
 @keyframes moveSlideshow {
   100% {
-      transform: translateX(-66.6666%);
+      transform: translateX(66.6666%);
   }
 }
 .scrolling-even_slower {
