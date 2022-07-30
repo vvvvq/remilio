@@ -33,6 +33,21 @@
 }
 
 
+.scrolling {
+  position: absolute;
+  height: 128px;
+  animation: moveSlideshow 20s linear infinite;
+}
+@keyframes moveSlideshow {
+  100% {
+      transform: translateX(-66.6666%);
+  }
+}
+.scrollingslower {
+  position: absolute;
+  height: 128px;
+  animation: moveSlideshow 50s linear infinite;
+}
 @keyframes moveSlideshow {
   100% {
       transform: translateX(-66.6666%);
@@ -42,6 +57,8 @@
   height:128px;
   position: absolute;
   animation: moveSlideshow 40s linear infinite;
+  height: 128px;
+  animation: moveSlideshow 20s linear infinite;
 }
 
 @keyframes moveSlideshow {
