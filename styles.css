@@ -1,3 +1,11 @@
+@media only screen and (max-device-width: 480px) {
+  div#connect-button {
+    max-width: 50vw;
+
+  }
+}
+
+
 /* Font Definition*/
 @font-face {
   font-family: msdos;
@@ -5,7 +13,7 @@
 }
 
 a:link {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
