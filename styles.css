@@ -63,6 +63,29 @@ body{
   padding: 1em 1em 1em;
   align-self: center;
 }
+.chan-box{
+    width: 43em;
+    max-width:90vw;
+    min-width: 50vw;
+    padding: 1.0em 0.5em 0.5em;
+    margin: 0.75em auto 0.1em;
+    border: 1px solid #2f4d0c;
+    margin: 1em;
+    background-color: #d6daee;
+    border: solid 5px;
+    border-color: #b7bbd0 #9ea1b3 #87899a #b7bbd0; /* red top, green right, blue bottom and yellow left */
+    min-height: 180px;
+    align-self:center;
+}
+.chan-bar {
+  width: 43em;
+  max-width:90vw;
+    min-width: 50vw;
+  text-align: left;
+  padding: 10px;
+  background: #d6daee;
+  color: white;
+}
 .footer{
   font-size:0.85em;
   color: #5c70a0;
