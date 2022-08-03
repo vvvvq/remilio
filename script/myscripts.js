@@ -2,14 +2,13 @@
 
 // set up text to print, each item in array is new line
 var aText = new Array(
-    ">POTUS is exposing the Cabal.",
+    ">Its happening. Q predicted this.",
     ">Top Insider: \"Remilios are the answer.\"",
-    ">Traitors to the Republic will be hanged.",
+    ">Time is running out.",
     ">Yesterday's speech contains breadcrumbs.",
-    ">Mint approaches.",
-    ">President Trump: \"I can only show you the way.\" ",
-    ">Expand your mind.",
-    "Mint Remilios.",
+    ">Trump: \"I can only show you the way.\" ",
+    ">\"Mint approaches.\"",
+    ">Expand your mind. Mint Remilios.",
     ">The Great Awakening.",
     "-Q"
 
