@@ -205,5 +205,79 @@ blinking {
   color: #789922;
 }
 
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 10px;
+}
+  .img-container > div {
+      background-color: black;
+      overflow: hidden;
+      font-size: 1em;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
 
 
+
+
+/* Scrolling Banner */
+
+.scrollinglogobox {
+  max-width: 45.5em;
+  width: 100vw;
+  min-height: 128px;
+  max-height: 55vw;
+  overflow: hidden;
+  position: relative;
+  align-self: center ;
+}
+
+
+.scrolling {
+  position: absolute;
+  height: 128px;
+  animation: moveSlideshow 20s linear infinite;
+}
+@keyframes moveSlideshow {
+  100% {
+      transform: translateX(-66.6666%);
+  }
+}
+.scrollingslower {
+  position: absolute;
+  height: 128px;
+  animation: moveSlideshow 50s linear infinite;
+}
+@keyframes moveSlideshow {
+  100% {
+      transform: translateX(-66.6666%);
+  }
+}
+.scroll_01 {
+  height:128px;
+  position: absolute;
+  animation: moveSlideshow 20s linear infinite;
+  height: 128px;
+}
+
+@keyframes moveSlideshow {
+  100% {
+      transform: translateX(-66.6666%);
+  }
+}
+.scroll_background {
+  height:128px;
+  position: absolute;
+  animation: moveSlideshow 100s linear infinite;
+  align-content: left ;
+}
+.body-grid {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-content: center;
+  min-width: 100%;
+}
