@@ -101,11 +101,10 @@ flex-wrap: wrap;
 justify-content: space-around;
 }
 .mint-button{
+  width: 15em;
+  min-width: 17em;
   width:17em;
-  max-width: 40em;
-  min-width: 15em;
   margin: 0.1em 0.1em 0.5em;
-  font-size: 2.35vw;
   color:#4d680f;
   padding: 0.4em;
   white-space: nowrap;
