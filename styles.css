@@ -10,7 +10,6 @@ body{
   align-content: center;
   text-align: center;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 .body-grid{
   display: flex;
