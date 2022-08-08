@@ -9,6 +9,7 @@ body{
   background: url("img/tile.webp");
   align-content: center;
   text-align: center;
+  overflow-x: hidden;
 }
 .body-grid{
   display: flex;
