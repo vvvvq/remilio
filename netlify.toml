@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "mint/*"
+  to = "https://www.scatter.art/collection/0x24218f732d5df76f9354269cb648e211907dea64"
+  status = 200
