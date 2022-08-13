@@ -9,6 +9,27 @@
 </head>
 <body>
 
+<script>
+window.onload = function(){
+
+	req = new XMLHttpRequest();
+	req.responseType = "text";
+	req.onload = function(){
+		if(req.status != "200"){
+			return;
+		}
+		minted = req.response;
+		
+		ctr = document.getElementById("mint_counter");
+		ctr.innerHTML = minted + "/10000 Minted"
+	};
+	req.open("GET", "https://remilio.org/total_supply.txt");
+	req.send();
+
+	
+};
+</script>
+
 <div class="body-grid">
     
     <div class="box-outset">
@@ -19,7 +40,11 @@
         <div class="box-inset" style="padding: 0px 0px 0px;">
             <div class="hero-box">
                 <img src="img/logo.png" style="max-width:50vw; width:12em;">
-                <br>                
+               
+				<div id="mint_counter">
+				
+				</div>
+				<br>                
                 Trillion Dollar Asset Class 
                  <span style="color: red">
                     In Your Hands
