@@ -21,7 +21,7 @@ window.onload = function(){
 		minted = req.response;
 		
 		ctr = document.getElementById("mint_counter");
-		ctr.innerHTML = minted + "/10000 Minted"
+		ctr.innerHTML = minted + "/ 10000 Minted"
 	};
 	req.open("GET", "https://remilio.org/total_supply.txt");
 	req.send();
