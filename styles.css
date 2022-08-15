@@ -2,7 +2,21 @@
   font-family: msdos;
   src: url(fonts/DOS.ttf);
 }
-a:link { text-decoration: none; }
+a:link { 
+  color: rgb(0, 98, 255);
+
+  text-decoration: none; 
+}
+a:hover{
+  color: rgb(107, 218, 255);
+}
+a:active{
+  color: rgb(60, 187, 229);
+}
+a:visited{
+  color: rgb(97, 51, 248);
+}
+
 body{
   font-family: msdos;
   font: 0.3em;
@@ -102,11 +116,10 @@ flex-wrap: wrap;
 justify-content: space-around;
 }
 .mint-button{
-  width: 15em;
-  min-width: 17em;
-  width:17em;
+  max-width:15em; 
+  width:80vw;
   margin: 0.1em 0.1em 0.5em;
-  color:#4d680f;
+  color:#49743a;
   padding: 0.4em;
   white-space: nowrap;
   background-color: #b5f327;
@@ -121,6 +134,13 @@ justify-content: space-around;
   background-color: #c3f254;
   border: rgba(160, 231, 160, 0.368);
   border-width: 4px;
+  border-style:outset;
+  box-shadow: 2px 2px #49743a;
+}
+.mint-button:active{
+  background-color: #c3f254;
+  border: rgba(160, 231, 160, 0.368);
+  border-width: 3px;
   border-style:outset;
   box-shadow: 2px 2px #49743a;
 }
@@ -307,4 +327,19 @@ blinking {
   margin: auto;
   align-content: center;
   min-width: 100%;
+}
+.affiliate-outset{
+  width: 43em;
+  max-width:90vw;
+  min-width: 50vw;
+  padding: 1.0em 0.5em 0.5em;
+  margin: 0.75em auto 0.1em;
+  color: white;
+  background-color: #819de0;
+  border: 8px;
+  border-style: solid solid solid solid;
+  border-color: #a5beff #4b5a83 #4b5a83 #8ea6e3;
+  text-align:center;
+  align-self:center;
+  font-size:1.2em;
 }
